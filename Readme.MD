@@ -11,3 +11,6 @@ After that run this command
 ```bash
 npm install && npm run dev
 ```
+
+#### Live URL
+https://jobs-api-j86i.onrender.com/
