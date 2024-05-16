@@ -40,6 +40,9 @@ app.use(helmet())
 app.use(cors())
 app.use(xss())
 
+app.get("/", (req, res) => {
+    res.send("Jobs API")
+})
 
 //routes
 app.use("/api/v1/auth", authRouter)
